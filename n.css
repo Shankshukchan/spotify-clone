@@ -1,0 +1,270 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", serif;
+  overflow: hidden;
+
+  color: aliceblue;
+}
+body {
+  background-color: black;
+}
+.main {
+  display: flex;
+
+  height: 100vh;
+}
+.side {
+  margin-top: 1rem;
+  width: 18%;
+  background-color: rgb(0, 0, 0);
+  border-radius: 1rem;
+ height: 100%;
+  overflow-y: auto;
+}
+.main-cont {
+  flex: 1;
+  border-radius: 1rem;
+  background-color: rgb(24, 23, 23);
+  margin: 0.5rem;
+  overflow: auto;
+  
+}
+.player {
+  position: fixed;
+  width: 100%;
+  height: 12%;
+  background-color: rgb(0, 0, 0);
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+a {
+  margin-left: 1.5rem;
+}
+
+.nav {
+  background-color: rgb(24, 23, 23);
+  padding: 0.1rem;
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  
+}
+.nav span {
+  margin: 1rem;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.nav span:hover {
+  opacity: 1;
+}
+
+.lib {
+  background-color: rgb(24, 23, 23);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  
+}
+img {
+  width: 15px;
+  height: 25px;
+  margin-right: 1rem;
+}
+.top {
+  opacity: 0.7;
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: auto;
+  font-weight: 700;
+  font-size: 20px;
+}
+.top:hover{
+  opacity:1;
+  cursor: pointer;
+}
+
+.card1{
+  margin-top:1rem ;
+  border-radius: 1rem;
+  background-color: rgb(34, 32, 32);
+  padding:1.5rem;
+
+}
+.card1:nth-child(1){
+  margin-bottom:3rem ;
+}
+
+.card1 h2{
+  font-size:20px ;
+  font-weight: 700;
+  
+}
+.lib1{
+  display: flex;
+  
+}
+.card1 button{
+  background-color: aliceblue;
+  justify-self: center;
+  color:black;
+  padding: 0.8rem;
+  font-weight: 700;
+  border-radius: 1.5rem;
+  border:none;
+  margin-top: 1rem;
+  cursor: pointer;
+  width: 10rem;
+}
+.card1 button:hover{
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+}
+.sticky{
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  padding: 1.5rem;
+  background-color: rgb(24, 23, 23);
+  align-content: center;
+  z-index: 1;
+  
+}
+.arrow img{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background-color: rgb(54, 50, 50);
+  border-radius: 50%;
+  padding: 0.2rem;
+}
+
+.button i{
+  margin-left:0.5rem ;
+}
+.button button{
+  background-color: rgb(30, 29, 29);
+  justify-self: center;
+  color:rgb(255, 255, 255);
+  padding: 0.5rem;
+  font-weight: 700;
+  border-radius: 1.5rem;
+  border:none;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  width: 9rem;
+
+}
+
+
+.button .but1{
+  background-color: aliceblue;
+  color: rgb(31, 29, 29);
+}
+.button .but1:hover{
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+}
+
+.button .but2{
+  background-color: rgb(31, 29, 29);
+  color: aliceblue
+}
+.button .but2:hover{
+  background-color: rgb(4, 4, 4);
+  color: aliceblue
+}
+.cards{
+  margin-top: 1rem;
+  display: inline
+ 
+}
+.cards h2{
+  font-weight: 700;
+  font-size: 30px;
+}
+.card-cont{
+  display: flex;
+  
+  margin-top: 2rem;
+}
+.card{width: 20%;
+  border-radius: 1rem;
+  background-color: rgb(34, 32, 32);
+  padding:1.5rem;
+  height: 22rem;
+  margin: 1.5rem;
+
+}
+.card h3{
+  margin-top: 0.4rem;
+  font-size:20px ;
+  font-weight: 700;
+  
+}
+.card img{
+  width: 100%;
+  height: 70%;
+  border-radius: 1rem;
+}
+p{opacity: 0.7;}
+.container{padding: 1.5rem;}
+
+footer{
+  height: 20rem;
+ justify-content: center;
+ align-items: center;
+  display: flex;
+  
+}
+.foot{
+  border-top: 1px solid rgb(255, 255, 255);
+  width: 100%;
+}
+.b1{padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+.b1 img{
+  width: 4rem;
+  height: 4rem;
+}
+audio::-webkit-media-controls-panel { 
+  background-color: rgba(241, 241, 241, 0.16);
+}
+audio::-webkit-media-controls-enclosure {
+  background-color: transparent;
+}
+audio{
+  width: 50rem;
+  background: none;
+  
+}
+.b3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.b3 img{
+  width: 1rem;
+  height: 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  align-self: self-start;
+}
+@media (max-width:1000px){
+  .hide{display: none;}
+
+}
